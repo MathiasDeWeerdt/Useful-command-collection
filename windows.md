@@ -76,6 +76,11 @@ ping -4 -t 8.8.8.8
 ping -6 -t 8.8.8.8
 ```
 
+#### ipv4, no timeout, TTL of 1 second
+```cmd
+ping -4 -t -w 1 198.18.0.4
+```
+
 ### Pathping
 
 ...
